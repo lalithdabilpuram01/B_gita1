@@ -8,33 +8,33 @@ In an era of information overload, this tool serves as a "Digital Guru." It brid
 
 🛠️ Technical Deep-Dive
 1. Grounded Generation (Prompt Engineering)
-  The core logic in codeB.py uses a sophisticated System Prompt that acts as a guardrail. It instructs the LLM to:
-  
-  Strictly adhere to the teachings of the Bhagavad Gita.
-  
-  Include relevant Chapter and Verse numbers.
-  
-  Translate complex Sanskrit concepts into simple, modern language.
-  
-  Provide a guiding principle if a direct answer isn't available, preventing "hallucinations."
+The core logic in codeB.py uses a sophisticated System Prompt that acts as a guardrail. It instructs the LLM to:
+
+* Strictly adhere to the teachings of the Bhagavad Gita.
+
+* Include relevant Chapter and Verse numbers.
+
+* Translate complex Sanskrit concepts into simple, modern language.
+
+* Provide a guiding principle if a direct answer isn't available, preventing "hallucinations."
 
 2. Modern Frontend Architecture
-  The UI is built with Streamlit, featuring a custom CSS injection to create a high-contrast, immersive user experience:
-  
-  Dynamic Backgrounds: Uses Base64 encoding to serve high-quality imagery without external hosting dependencies.
-  
-  Vibrant UI: Custom-styled floating cards, gold-toned headers, and high-readability text containers.
-  
-  State Management: Utilizes st.session_state to maintain the conversation flow between user inputs.
+
+* The UI is built with Streamlit, featuring a custom CSS injection to create a high-contrast, immersive user experience:
+
+* Dynamic Backgrounds: Uses Base64 encoding to serve high-quality imagery without external hosting dependencies.
+
+* Vibrant UI: Custom-styled floating cards, gold-toned headers, and high-readability text containers.
+
+* State Management: Utilizes st.session_state to maintain the conversation flow between user inputs.
 
 3. Production-Ready Backend
-  Logging: A custom logging_setup.py tracks every query and system event in server.log, essential for monitoring AI behavior in a production environment.
-  
-  Security: Decoupled API management via openai_helper.py to keep sensitive credentials organized.
+* Logging: A custom logging_setup.py tracks every query and system event in server.log, essential for monitoring AI behavior in a production environment.
+
+* Security: Decoupled API management via openai_helper.py to keep sensitive credentials organized.
 
 📁 Repository Structure
-```mermaid
-
+```bash
 
 ├── backend/
 │   ├── codeB.py           # Logic for GPT-3.5 integration & System Prompting
@@ -53,27 +53,28 @@ In an era of information overload, this tool serves as a "Digital Guru." It brid
 
 ⚙️ How to Run
 Clone & Install:
-```mermaid
+```bash
 Bash
 ```
-```mermaid
+```bash
 git clone https://github.com/your-username/gita-ai-guide.git
 pip install streamlit openai
 ```
-```mermaid
+
 Setup API Key:
-```
-```mermaid
+
+```bash
 Add your OpenAI key to backend/openai_helper.py.
 ```
 
 Launch:
 
-```mermaid
+```bash
 Bash
 ```
-```mermaid
+```bash
 streamlit run frontend/main_page.py
 ```
-📈 Impact & Use Case
+📈 Impact & Use Case :
+
 This project demonstrates how AI can be fine-tuned for Domain-Specific Expertise. By constraining the LLM's "knowledge world" to the Gita, the tool becomes a reliable source for spiritual and philosophical research rather than a general-purpose chat bot.
