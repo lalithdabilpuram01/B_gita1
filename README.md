@@ -1,9 +1,9 @@
-🕉️ Bhagavad Gita AI: Philosophical Wisdom Engine
+Bhagavad Gita AI: Philosophical Wisdom Engine
 This project is a specialized AI-powered chatbot designed to provide thoughtful, concise, and authentic guidance based on the teachings of the Bhagavad Gita. Unlike generic chatbots, this engine is "grounded" in specific philosophical context to ensure responses remain true to the original scriptures.
 
 <img width="1080" height="555" alt="image" src="https://github.com/user-attachments/assets/9c44d00e-3157-49d3-98a4-4616de35bbdf" />
 
-🚀 The Vision
+The Vision
 In an era of information overload, this tool serves as a "Digital Guru." It bridges the gap between ancient wisdom and modern problems by using Generative AI to interpret and apply Gita principles to user-specific questions.
 
 🛠️ Technical Deep-Dive
@@ -33,7 +33,7 @@ The core logic in codeB.py uses a sophisticated System Prompt that acts as a gua
 
 * Security: Decoupled API management via openai_helper.py to keep sensitive credentials organized.
 
-📁 Repository Structure
+Repository Structure
 ```bash
 
 ├── backend/
@@ -51,7 +51,7 @@ The core logic in codeB.py uses a sophisticated System Prompt that acts as a gua
 
   
 
-⚙️ How to Run
+How to Run
 Clone & Install:
 ```bash
 Bash
@@ -75,6 +75,6 @@ Bash
 ```bash
 streamlit run frontend/main_page.py
 ```
-📈 Impact & Use Case :
+Impact & Use Case :
 
 This project demonstrates how AI can be fine-tuned for Domain-Specific Expertise. By constraining the LLM's "knowledge world" to the Gita, the tool becomes a reliable source for spiritual and philosophical research rather than a general-purpose chat bot.
