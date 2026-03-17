@@ -1,4 +1,4 @@
-Bhagavad Gita AI: Philosophical Wisdom Engine
+## Bhagavad Gita AI: Philosophical Wisdom Engine
 This project is a specialized AI-powered chatbot designed to provide thoughtful, concise, and authentic guidance based on the teachings of the Bhagavad Gita. Unlike generic chatbots, this engine is "grounded" in specific philosophical context to ensure responses remain true to the original scriptures.
 
 <img width="1080" height="555" alt="image" src="https://github.com/user-attachments/assets/9c44d00e-3157-49d3-98a4-4616de35bbdf" />
@@ -6,7 +6,7 @@ This project is a specialized AI-powered chatbot designed to provide thoughtful,
 The Vision
 In an era of information overload, this tool serves as a "Digital Guru." It bridges the gap between ancient wisdom and modern problems by using Generative AI to interpret and apply Gita principles to user-specific questions.
 
-🛠️ Technical Deep-Dive
+Technical Deep-Dive
 1. Grounded Generation (Prompt Engineering)
 The core logic in codeB.py uses a sophisticated System Prompt that acts as a guardrail. It instructs the LLM to:
 
